@@ -1,0 +1,51 @@
+.col-1 {width: 8.33%; border: 1px solid black; background-color: rgb(0, 229, 255);}
+.col-2 {width: 16.66%; border: 1px solid black; background-color: aqua;}
+.col-3 {width: 25%; border: 1px solid black; background-color: aqua;}
+.col-4 {width: 33.33%; border: 1px solid black; background-color: aqua;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%; border: 1px solid black; background-color: aqua;}
+.col-9 {width: 75%; border: 1px solid black; background-color: aqua;}
+.col-10 {width: 83.33%; border: 1px solid black; background-color: aqua;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+
+
+
+.height {height: 150px;}
+
+.bg-color-1 {
+    background-color: antiquewhite;
+}
+.bg-color-2 {
+    background-color: rgb(230, 130, 0);
+}
+.bg-color-3 {
+    background-color: rgb(62, 45, 23);
+}
+.bg-color-4 {
+    background-color: rgb(31, 226, 132);
+}
+.bg-color-5 {
+    background-color: rgb(17, 24, 144);
+}
+.continer {
+    width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.footer-continer {
+    width: 1400px;
+    height: 50vh;
+    margin: 0 auto;
+}
+.border {
+    border: 1px solid black;
+}
+

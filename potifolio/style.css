@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* menu start */
+
+.menu {
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: linear-gradient(to left, rgba(44, 44, 44, 0.2), rgba(0, 0, 0, 0.3)) ;
+}
+.logo a {
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+nav a {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+label i {
+    font-size: 30px;
+}
+.banner{
+    width: 100%;
+    height: 91%;
+}

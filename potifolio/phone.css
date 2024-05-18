@@ -1,0 +1,33 @@
+@media screen and (max-width: 440px) {
+    input {
+        display: none;
+    }
+    .logo a {
+        font-size: 2em;
+    }
+    nav {
+        position: fixed;
+        width: 60% !important;
+        height: 40vh;
+        top: 30vh;
+        right: 20vw;
+        display: block;
+        text-align: center;
+        padding: 20px;
+        transition: 1s;
+    }
+    nav a {
+        width: 100%;
+        color: transparent;
+        transition: 1s;
+    }
+    input:checked ~ nav {
+        background-color: rgba(44, 44, 44, 0.5);
+    }
+    input:checked ~ nav a {
+        color: black;
+    }
+    input:checked ~ label {
+        z-index: 100;
+    }
+}

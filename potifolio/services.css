@@ -1,0 +1,104 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(180deg, #99cdd8, #fde6d3);
+}
+.container {
+    box-shadow: 0px 0px 3px 0 rgb(94, 94, 94);
+    background: rgba(255, 255, 255, 0.3);
+    width: 95vw;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+.boxServicesInfo {
+    height: 100vh;
+    padding: 2%;
+}
+.boxServicesInfo h1 {
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 4%;
+}
+.boxServicesInfo h2 {
+    text-transform: capitalize;
+    font-size: 28px;
+    margin-bottom: 4%;
+}
+.boxMyProtsent {
+    width: 50%;
+    background: #a7a7a7;
+    margin-bottom: 1%;
+}
+.boxProtsent1 {
+    width: 80%;
+    height: 100%;
+    background: #000000;
+    border: 4px solid #000000;
+}
+.boxInfoMySkill {
+    margin-bottom: 3%;
+    padding: 2% 1%;
+    box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+}
+.boxInfoMySkill h3:nth-child(1) {
+    margin-bottom: 2%;
+}
+.protsentH1 {
+    width: 50%;
+    padding-left: 38%;
+}
+.boxProtsent2 {
+    width: 50%;
+    height: 100%;
+    background: #000000;
+    border: 4px solid #000000;
+}
+.protsentH2 {
+    width: 50%;
+    padding-left: 23%;
+}
+.boxProtsent3 {
+    width: 70%;
+    height: 100%;
+    background: #000000;
+    border: 4px solid #000000;
+}
+.protsentH3 {
+    width: 50%;
+    padding-left: 33%;
+}
+.boxProtsent4 {
+    width: 40%;
+    height: 100%;
+    background: #000000;
+    border: 4px solid #000000;
+}
+.protsentH4 {
+    width: 50%;
+    padding-left: 18%;
+}
+
+.parent {
+    display: grid;
+    height: 81%;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    .parent img {
+        width: 100%;
+        height: 100%;
+    }
+  
+  .div1 { grid-area: 1 / 1 / 9 / 7; background: red; }
+  .div2 { grid-area: 9 / 1 / 13 / 4; background: red; }
+  .div3 { grid-area: 9 / 4 / 13 / 7; background: red; }
+  .div4 { grid-area: 9 / 7 / 13 / 10; background: red; }
+  .div5 { grid-area: 5 / 7 / 9 / 10; background: red; }
+  .div6 { grid-area: 1 / 7 / 5 / 10; background: red; }

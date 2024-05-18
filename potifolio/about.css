@@ -1,0 +1,82 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(190deg, #61cee7, #ae926d);
+}
+.container {
+    box-shadow: 0px 0px 3px 0 rgb(94, 94, 94);
+    background: rgba(255, 255, 255, 0.4);
+    width: 95vw;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxImges {
+width: 50%;
+height: 100vh;
+padding: 1%;
+}
+.parent {
+    display: grid;
+    height: 81%;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    .parent img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 9 / 7; background: red; }
+    .div2 { grid-area: 9 / 1 / 13 / 4; background: red; }
+    .div3 { grid-area: 9 / 4 / 13 / 7; background: red; }
+    .div4 { grid-area: 9 / 7 / 13 / 10; background: red; }
+    .div5 { grid-area: 5 / 7 / 9 / 10; background: red; }
+    .div6 { grid-area: 1 / 7 / 5 / 10; background: red; }
+
+.boxInfoMy {
+    width: 50%;
+    height: 100%;
+}
+.boxTextAboutInfo {
+    width: 40vw;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 5% 3%;
+}
+.boxTextAboutInfo h1 {
+    font-size: 3em;
+    text-transform: capitalize;
+    margin-bottom: 2%;
+}
+.boxTextAboutInfo h2 {
+    width: 60%;
+    margin-bottom: 3%;
+}
+.boxTextAboutInfo p {
+    font-size: 1.5em;
+    width: 80%;
+    margin-bottom: 3%;
+}
+.boxInst a {
+    width: 35%;
+    border: 2px solid #ee4392;
+    padding: 10px 25px;
+}
+.boxInst i {
+    font-size: 45px;
+    color: #ee4392;
+    margin-right: 4%;
+}
+.boxInst h2 {
+    color: #ee4392;
+    text-transform: uppercase;
+    margin-top: 3%;
+}

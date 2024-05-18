@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(190deg, #00afb9, #fed9b7);
+}
+.container {
+    box-shadow: 0px 0px 3px 0 rgb(94, 94, 94);
+    background: rgba(255, 255, 255, 0.4);
+    width: 95vw;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+.boxInfoMy {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.boxInfoMy h1 {
+    text-transform: capitalize;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+.boxInfoMy h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.boxInfoMy p {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.boxInfoMy a {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 25px;
+    transition: 1s;
+}
+.boxInfoMy a:hover {
+    background: black;
+    color: white;
+}
